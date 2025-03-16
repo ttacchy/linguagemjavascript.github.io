@@ -2,10 +2,8 @@
     width: 400px;
     height: 300px;
     perspective: 1000px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;    
+ 
+    
   }
   
   .card-inner {
@@ -14,6 +12,10 @@
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.999s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   
   .card:hover .card-inner {
